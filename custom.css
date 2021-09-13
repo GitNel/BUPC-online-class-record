@@ -1,0 +1,91 @@
+/*---------------index page / log in-------------------*/
+
+.bckgrnd {
+    background-image: url(images/bupc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.ind {
+    display: inline-block;
+}
+
+.find button {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.main-wrapper .panel {
+    background: none;
+    border-radius: 5%;
+    overflow: scroll none;
+}
+
+.ind .panel-heading .panel-title h4,
+.section-title .sub-title {
+
+    color: #fff !important;
+    float: left;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.panel-heading .panel-title h4 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section-title .sub-title {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.text-muted {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.indform {
+    width: 350px;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+
+/*--------dashboard------------------------------------*/
+.row .find input {
+    width: 500px;
+}
+
+/*---------------create acc----------------------------------*/
+.ind label {
+    color: #efefef;
+    font-size: 13px;
+}
+
+.linkks a,
+.crteacc a {
+    color: #efefef !important;
+    font-size: 20px;
+}
+
+.scrollss {
+    overflow: scroll;
+}
+
+.minimodal {
+    width: 50%;
+    height: 20%;
+    display: block;
+    text-align: center;
+}
+
+.minibody{
+    display: inline-block;
+    
+}
+
+@media screen 
